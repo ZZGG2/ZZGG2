@@ -12,7 +12,6 @@
 <a href="https://velog.io/@tkdxm0208/"><img src="https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white"/></a>
 <a href="mailto:tkdxm0208@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/%EB%8C%80%EC%84%9D-%EB%B0%B0-253085369/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-<img src="https://komarev.com/ghpvc/?username=ZZGG2&style=flat-square&color=1f4257&label=VIEWS" />
 
 </div>
 

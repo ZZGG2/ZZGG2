@@ -1,68 +1,107 @@
-<!-- 1. 헤더 (Header) -->
-<!-- capsule-render 오픈소스를 활용해 인프라 엔지니어 느낌의 깔끔한 다크 그린/블루 계열의 배너를 생성합니다. -->
-![header](https://capsule-render.vercel.app/api?type=waving&color=1f4257&height=250&section=header&text=Hello,%20I'm%20a%20Cloud%20Infrastructure%20Engineer&fontSize=30&fontColor=ffffff&animation=fadeIn)
+<!-- Header -->
+<div align="center">
 
-<p align="right">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F본인의깃허브ID&count_bg=%231F4257&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" alt="Hits"/>
-</p>
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:1f4257,100:2c5364&height=220&section=header&text=Bae%20Daeseok&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Cloud%20%2F%20DevOps%20Engineer&descAlignY=58&descSize=20&animation=fadeIn)
 
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=4FA3D1&center=true&vCenter=true&width=600&lines=High+Availability+Infrastructure+%E2%98%81%EF%B8%8F;Config+out+of+the+image%2C+into+SSM+%F0%9F%94%90;Troubleshoot+%E2%86%92+Measure+%E2%86%92+Document+%F0%9F%93%9D" alt="Typing SVG" />
+</a>
 
-<!-- 2. 소개 (About Me) -->
+<br/>
+
+<a href="https://velog.io/@tkdxm0208/"><img src="https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white"/></a>
+<a href="mailto:tkdxm0208@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/%EB%8C%80%EC%84%9D-%EB%B0%B0-253085369/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+<img src="https://komarev.com/ghpvc/?username=ZZGG2&style=flat-square&color=1f4257&label=VIEWS" />
+
+</div>
+
+<br/>
+
 ## 🧑‍💻 About Me
 
-- ☁️ **인프라 자동화(IaC)**와 **고가용성 클라우드 아키텍처** 설계 및 운영에 깊은 관심을 두고 있습니다.
-- 🛠️ 반복적인 인프라 프로비저닝을 코드로 자산화하고, 효율적인 컨테이너 오케스트레이션 환경을 구축하는 것을 즐깁니다.
-- 📈 기술적 해결 과정과 인프라 아키텍처 개선 경험을 기록하고 공유하는 아카이빙을 꾸준히 실천하고 있습니다.
+```yaml
+name: 배대석 (Bae Daeseok)
+role: Cloud / DevOps Engineer (Junior)
+focus:
+  - 고가용성 클라우드 아키텍처 설계·구축
+  - 설정과 이미지를 분리한 재현 가능한 인프라
+  - 장애 원인을 지표로 좁히고, 해결 과정을 기록하는 운영
+goal: AWS Solutions Architect
+```
 
+<br/>
 
-<!-- 3. 기술 스택 (Tech Stacks) -->
-## 🛠️ Tech Stacks
+## 🛠️ Tech Stack
 
-### Cloud Platforms
-<img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"> <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white"> <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"> <img src="https://img.shields.io/badge/Naver_Cloud-03C75A?style=for-the-badge&logo=naver&logoColor=white">
+<div align="center">
 
-### DevOps & Infrastructure as Code
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=Terraform&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=Kubernetes&logoColor=white">
+**☁️ Cloud**
 
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp&theme=dark" />
 
-<!-- 4. 프로젝트 정보 (Projects) -->
-## 🚀 Featured Projects
+<br/><br/>
 
-### 📂 프로젝트명 1 (예: High-Availability Cloud Architecture Project)
-> **한 줄 요약:** 프로젝트에 대한 핵심 한 줄 설명을 적어주세요.
-- **Duration:** 2026.03 ~ 2026.04 (예시)
-- **Tech Stacks:** `AWS`, `Terraform`, `Docker`, `GitHub Actions`
-- **Key Roles & Achievements:**
-  - Terraform을 이용한 3-Tier 아키텍처 인프라 프로비저닝 자동화
-  - 가용성 보장을 위한 멀티 AZ 구조 설계 및 Auto Scaling Group 구성
-  - 구조 및 트러블슈팅 과정을 기술 블로그에 시리즈로 연재 (5개 포스팅)
-- **Links:** [🔗 GitHub Repository](https://github.com/본인ID/리포지토리명) | [📝 Technical Documentation (Velog)](#)
+**⚙️ Infra & Container**
 
-### 📂 프로젝트명 2 (예: Cloud Native Automation Platform)
-> **한 줄 요약:** 인프라 자원 관리 및 CI/CD 파이프라인 자동화 프로젝트
-- **Duration:** 2026.04 ~ 2026.05 (예시)
-- **Tech Stacks:** `Kubernetes`, `Docker`, `GitHub Actions`, `IaC`
-- **Key Roles & Achievements:**
-  - Docker 컨테이너 기반의 애플리케이션 패키징 및 배포 파이프라인(CI/CD) 구축
-  - Kubernetes 클러스터 상에서의 무중단 배포 환경 및 모니터링 체계 설계
-- **Links:** [🔗 GitHub Repository](https://github.com/본인ID/리포지토리명)
+<img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,terraform&theme=dark" />
 
+<br/><br/>
 
-<!-- GitHub 깃허브 활동량 통계 그래프를 나란히 배치 -->
+**🚀 CI/CD**
+
+<img src="https://skillicons.dev/icons?i=githubactions,git,github&theme=dark" />
+
+<br/><br/>
+
+**📊 Observability**
+
+<img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" />
+
+</div>
+
+<br/>
+
+## 🚀 Featured Project
+
+<table>
+<tr>
+<td>
+
+### ☁️ [AWS 3-Tier PetClinic Infrastructure](https://github.com/ZZGG2/AWS-Project-1-3-Tier-Architecture)
+
+`2026.09 – 2026.10` · `4인 팀` · `Bespin Global 클라우드 엔지니어 과정 최종 프로젝트`
+
+> 동물병원 예약 서비스를 가정한 **고가용성 AWS 3-Tier 인프라**
+
+```
+Route 53 → ALB(HTTPS) → Apache → Internal NLB → Tomcat → RDS Multi-AZ
+                                                   └──→ ElastiCache Redis (Session)
+```
+
+| | |
+|---|---|
+| 🏗️ **Architecture** | 2 AZ × 4 Tier, Bastion 대신 SSM Session Manager, NAT 대신 VPC Endpoint |
+| 🔐 **Config** | 골든 AMI + SSM Parameter Store로 엔드포인트와 비밀번호를 이미지에서 분리 |
+| 🔥 **Troubleshooting** | 부하 테스트 중 반복된 **ALB 502**를 Apache 튜닝으로 해결 → **약 8만 건 요청 중 0~1건** |
+| 📊 **Observability** | Apache·Tomcat·ALB·CloudTrail 로그 → CloudWatch → S3, RTO 3h / RPO 10m |
+
+<img src="https://img.shields.io/badge/EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white"/> <img src="https://img.shields.io/badge/ALB%2FNLB-8C4FFF?style=flat-square&logo=awselasticloadbalancing&logoColor=white"/> <img src="https://img.shields.io/badge/RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white"/> <img src="https://img.shields.io/badge/ElastiCache-C925D1?style=flat-square&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/Route_53-8C4FFF?style=flat-square&logo=amazonroute53&logoColor=white"/> <img src="https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white"/> <img src="https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white"/> <img src="https://img.shields.io/badge/Tomcat-F8DC75?style=flat-square&logo=apachetomcat&logoColor=black"/> <img src="https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat-square&logo=amazoncloudwatch&logoColor=white"/> <img src="https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white"/> <img src="https://img.shields.io/badge/Systems_Manager-E7157B?style=flat-square&logo=amazonwebservices&logoColor=white"/>
+
+[📂 Repository](https://github.com/ZZGG2/AWS-Project-1-3-Tier-Architecture) · [📝 Velog 시리즈](https://velog.io/@tkdxm0208/series/AWS-3-Tier-Architecture)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=본인의깃허브ID&show_icons=true&theme=tokyonight&include_all_commits=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=본인의깃허브ID&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
-</p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ZZGG2&show_icons=true&hide_border=true&bg_color=0d1117&title_color=4FA3D1&icon_color=4FA3D1&text_color=c9d1d9&include_all_commits=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZZGG2&layout=compact&hide_border=true&bg_color=0d1117&title_color=4FA3D1&text_color=c9d1d9" height="165"/>
+</div>
 
-
-<!-- 5. 연락처 및 링크 (Contact) -->
-## 📫 Contact & Links
-
-- 📝 **Blog:** [Velog / Tistory 등 블로그 주소 링크](https://velog.io/)
-- 📧 **Email:** `본인이메일@gmail.com`
-- 💬 **LinkedIn:** [링크드인 프로필 주소](https://linkedin.com/) (선택사항)
-
----
-<p align="center">Thank you for visiting my profile! 🚀</p>
+<!-- Footer -->
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:1f4257,100:0f2027&height=120&section=footer)

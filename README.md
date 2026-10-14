@@ -1,7 +1,7 @@
 <!-- Header -->
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:1f4257,100:2c5364&height=220&section=header&text=Bae%20Daeseok&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Cloud%20%2F%20DevOps%20Engineer&descAlignY=58&descSize=20&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:1f4257,100:2c5364&height=220&section=header&text=Daeseok%20Bae&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Cloud%20%2F%20DevOps%20Engineer&descAlignY=58&descSize=20&animation=fadeIn)
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=4FA3D1&center=true&vCenter=true&width=600&lines=High+Availability+Infrastructure+%E2%98%81%EF%B8%8F;Config+out+of+the+image%2C+into+SSM+%F0%9F%94%90;Troubleshoot+%E2%86%92+Measure+%E2%86%92+Document+%F0%9F%93%9D" alt="Typing SVG" />
@@ -21,7 +21,7 @@
 ## 🧑‍💻 About Me
 
 ```yaml
-name: 배대석 (Bae Daeseok)
+name: 배대석 (Daeseok Bae)
 role: Cloud / DevOps Engineer (Junior)
 focus:
   - 고가용성 클라우드 아키텍처 설계·구축

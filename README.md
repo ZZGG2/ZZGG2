@@ -63,6 +63,31 @@ goal: AWS Solutions Architect
 
 ## 🚀 Featured Projects
 
+### 🎯 NextPlan — 취업 준비 플랫폼 AWS 인프라 & CI/CD
+
+`2026.04 – 2026.06` · `대학교 캡스톤디자인 팀 프로젝트` · `Cloud / DevOps 담당`
+
+이력서 업로드 → AI 직무 분석 서비스의 **AWS 인프라 구축과 GitHub Actions 배포 자동화**
+
+```
+CloudFront + WAF ─┬─ /*     → S3 (React SPA)
+                  └─ /api/* → EC2 (Nginx → Spring Boot) → RDS PostgreSQL
+                                  └──→ S3 Private (Presigned URL) · Colab AI
+```
+
+- **Architecture** — CloudFront 경로 기반 라우팅으로 정적/API 트래픽 분리, 이력서는 Private S3 + Presigned URL
+- **CI/CD** — Front: S3 sync + CloudFront 무효화 / Back: Gradle → SCP → systemd, `nohup` 수동 관리 → **systemd 자동 복구**
+- **Troubleshooting** — 운영 환경 업로드 실패를 **CloudFront 라우팅 → WAF 차단 → 경로 중복 → multipart 설정** 4단계로 추적·해결
+- **Config** — 시크릿을 GitHub Secrets · systemd 환경변수로 분리, `ddl-auto: validate`로 운영 스키마 보호
+
+<img src="https://img.shields.io/badge/CloudFront-8C4FFF?style=flat-square&logo=amazonwebservices&logoColor=white"/> <img src="https://img.shields.io/badge/AWS_WAF-DD344C?style=flat-square&logo=amazonwebservices&logoColor=white"/> <img src="https://img.shields.io/badge/EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white"/> <img src="https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white"/> <img src="https://img.shields.io/badge/RDS_PostgreSQL-527FFF?style=flat-square&logo=amazonrds&logoColor=white"/> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/> <img src="https://img.shields.io/badge/systemd-30D475?style=flat-square&logo=linux&logoColor=black"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+
+[📂 Repository](https://github.com/ZZGG2/nextplan-infra) · [🔥 트러블슈팅 기록](https://github.com/ZZGG2/nextplan-infra/tree/main/docs/troubleshooting)
+
+<br/>
+
+---
+
 ### ☁️ AWS 3-Tier PetClinic Infrastructure
 
 `2026.09 – 2026.10` · `4인 팀` · `Bespin Global 클라우드 엔지니어 과정 최종 프로젝트`
@@ -82,31 +107,6 @@ Route 53 → ALB(HTTPS) → Apache → Internal NLB → Tomcat → RDS Multi-AZ
 <img src="https://img.shields.io/badge/EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white"/> <img src="https://img.shields.io/badge/ALB%2FNLB-8C4FFF?style=flat-square&logo=awselasticloadbalancing&logoColor=white"/> <img src="https://img.shields.io/badge/RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white"/> <img src="https://img.shields.io/badge/ElastiCache-C925D1?style=flat-square&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/Route_53-8C4FFF?style=flat-square&logo=amazonroute53&logoColor=white"/> <img src="https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white"/> <img src="https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white"/> <img src="https://img.shields.io/badge/Tomcat-F8DC75?style=flat-square&logo=apachetomcat&logoColor=black"/> <img src="https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat-square&logo=amazoncloudwatch&logoColor=white"/> <img src="https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white"/> <img src="https://img.shields.io/badge/Systems_Manager-E7157B?style=flat-square&logo=amazonwebservices&logoColor=white"/>
 
 [📂 Repository](https://github.com/ZZGG2/aws-3tier-petclinic) · [📝 Velog 시리즈](https://velog.io/@tkdxm0208/series/AWS-3-Tier-Architecture)
-
-<br/>
-
----
-
-### 🎯 NextPlan — 취업 준비 플랫폼 AWS 인프라 & CI/CD
-
-`2026.04 – 2026.06` · `팀 프로젝트` · `Cloud / DevOps 담당`
-
-이력서 업로드 → AI 직무 분석 서비스의 **AWS 인프라 구축과 GitHub Actions 배포 자동화**
-
-```
-CloudFront + WAF ─┬─ /*     → S3 (React SPA)
-                  └─ /api/* → EC2 (Nginx → Spring Boot) → RDS PostgreSQL
-                                  └──→ S3 Private (Presigned URL) · Colab AI
-```
-
-- **Architecture** — CloudFront 경로 기반 라우팅으로 정적/API 트래픽 분리, 이력서는 Private S3 + Presigned URL
-- **CI/CD** — Front: S3 sync + CloudFront 무효화 / Back: Gradle → SCP → systemd, `nohup` 수동 관리 → **systemd 자동 복구**
-- **Troubleshooting** — 운영 환경 업로드 실패를 **CloudFront 라우팅 → WAF 차단 → 경로 중복 → multipart 설정** 4단계로 추적·해결
-- **Config** — 시크릿을 GitHub Secrets · systemd 환경변수로 분리, `ddl-auto: validate`로 운영 스키마 보호
-
-<img src="https://img.shields.io/badge/CloudFront-8C4FFF?style=flat-square&logo=amazonwebservices&logoColor=white"/> <img src="https://img.shields.io/badge/AWS_WAF-DD344C?style=flat-square&logo=amazonwebservices&logoColor=white"/> <img src="https://img.shields.io/badge/EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white"/> <img src="https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white"/> <img src="https://img.shields.io/badge/RDS_PostgreSQL-527FFF?style=flat-square&logo=amazonrds&logoColor=white"/> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/> <img src="https://img.shields.io/badge/systemd-30D475?style=flat-square&logo=linux&logoColor=black"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-
-[📂 Repository](https://github.com/ZZGG2/nextplan-infra) · [🔥 트러블슈팅 기록](https://github.com/ZZGG2/nextplan-infra/tree/main/docs/troubleshooting)
 
 <br/>
 

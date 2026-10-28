@@ -110,6 +110,30 @@ Route 53 → ALB(HTTPS) → Apache → Internal NLB → Tomcat → RDS Multi-AZ
 
 <br/>
 
+---
+
+### ☸️ PetClinic on Amazon EKS
+
+`2026.10` · `개인 프로젝트` · `Bespin Global 클라우드 엔지니어 과정 Docker & Kubernetes 프로젝트`
+
+Spring PetClinic을 컨테이너화해 단계적으로 확장한 **Amazon EKS 기반 3-Tier 인프라**
+
+```
+Route 53 → ALB(HTTPS) → Nginx → Tomcat → MySQL StatefulSet (dev) / RDS (prod)
+                                └──→ Secrets Manager → External Secrets (DB 자격 증명)
+```
+
+- **Architecture** — 2 AZ, Ingress 대신 Gateway API, 시스템 노드그룹과 Karpenter Spot 노드 분리
+- **Config & Security** — Kustomize로 dev/prod 분리(WAS 설정은 수정 없이 DB만 전환), Git 평문 비밀번호를 Secrets Manager로 이전, DB 계정 DML 전용
+- **Scaling** — WAS는 HPA(CPU), WEB은 KEDA(ALB 요청 수 + cron), 노드는 Karpenter(Spot · Consolidation)
+- **Troubleshooting** — Running인데 404이던 WAS를 구간별로 추적 → **Maven 필터링이 XML의 DB 주소를 빌드 시점 값으로 고정**한 원인을 찾아 빌드 후 복원 + 설정 파일 주입으로 해결
+
+<img src="https://img.shields.io/badge/Amazon_EKS-FF9900?style=flat-square&logo=amazoneks&logoColor=white"/> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white"/> <img src="https://img.shields.io/badge/Karpenter-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white"/> <img src="https://img.shields.io/badge/KEDA-3B5BDB?style=flat-square"/> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/> <img src="https://img.shields.io/badge/Tomcat-F8DC75?style=flat-square&logo=apachetomcat&logoColor=black"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white"/> <img src="https://img.shields.io/badge/Route_53-8C4FFF?style=flat-square&logo=amazonroute53&logoColor=white"/> <img src="https://img.shields.io/badge/Secrets_Manager-DD344C?style=flat-square&logo=amazonwebservices&logoColor=white"/> <img src="https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat-square&logo=amazoncloudwatch&logoColor=white"/>
+
+[📂 Repository](https://github.com/ZZGG2/petclinic-k8s-project) · [📝 Velog 시리즈](https://velog.io/@tkdxm0208/series/AWS-EKS)
+
+<br/>
+
 ## 📊 GitHub Stats
 
 <div align="center">

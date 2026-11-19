@@ -43,19 +43,49 @@ goal: AWS Solutions Architect
 
 **⚙️ Infra & Container**
 
-<img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,terraform&theme=dark" />
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,docker,kubernetes,terraform,nginx&theme=dark" />
+<br/>
+<img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" />
+<img src="https://img.shields.io/badge/Kustomize-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/KEDA-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/Karpenter-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+<br/>
+<img src="https://img.shields.io/badge/Apache%20HTTPD-D22128?style=for-the-badge&logo=apache&logoColor=white" />
+<img src="https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black" />
+<img src="https://img.shields.io/badge/systemd-262524?style=for-the-badge&logo=linux&logoColor=white" />
 
 <br/><br/>
 
-**🚀 CI/CD**
+**🗄️ Database & Cache**
 
-<img src="https://skillicons.dev/icons?i=githubactions,git,github&theme=dark" />
+<img src="https://skillicons.dev/icons?i=mysql,postgres,redis&theme=dark" />
+<br/>
+<img src="https://img.shields.io/badge/Valkey-283E76?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS%20ElastiCache-527FFF?style=for-the-badge&logoColor=white" />
 
 <br/><br/>
 
-**📊 Observability**
+**🚀 CI/CD & GitOps**
+
+<img src="https://skillicons.dev/icons?i=githubactions,jenkins,git,github&theme=dark" />
+<br/>
+<img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" />
+
+<br/><br/>
+
+**📊 Observability & FinOps**
 
 <img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" />
+<br/>
+<img src="https://img.shields.io/badge/Thanos-7B42BC?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/WhaTap-00A8E8?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/OpsNow-2D6CDF?style=for-the-badge&logoColor=white" />
+
+<br/><br/>
+
+**💻 Language & Scripting**
+
+<img src="https://skillicons.dev/icons?i=py,bash&theme=dark" />
 
 </div>
 
